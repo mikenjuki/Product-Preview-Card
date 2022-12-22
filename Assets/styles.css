@@ -28,14 +28,14 @@ body {
 /* Main */
 /* Card Component */
 .container {
-  max-width: var(--max-width);
+  max-width: 600px;
+  height: auto;
+  /* max-width: var(--max-width); */
   width: 666px;
-  height: 440px;
   display: flex;
   background-color: var(--main-White);
   border-radius: 10px;
   margin-top: 110px;
-  margin-bottom: 48px;
   overflow: hidden;
 }
 
@@ -129,6 +129,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
   text-align: center;
+  margin-top: 48px;
 }
 .attribution a {
   text-decoration: none;
