@@ -12,6 +12,8 @@
   --Very-dark-blue: hsl(212, 21%, 14%);
   --Dark-grayish-blue: hsl(228, 12%, 48%);
   --main-White: hsl(0, 0%, 100%);
+
+  --max-width: 1440px;
 }
 
 /* Body styling */
@@ -26,12 +28,15 @@ body {
 /* Main */
 /* Card Component */
 .container {
+  max-width: var(--max-width);
   width: 666px;
-  height: 480px;
+  height: 440px;
   display: flex;
   background-color: var(--main-White);
   border-radius: 10px;
   margin-top: 110px;
+  margin-bottom: 48px;
+  overflow: hidden;
 }
 
 .image-container {
@@ -42,7 +47,6 @@ body {
 .image-container img {
   width: 100%;
   height: 100%;
-  border-radius: 10px 0 0 10px;
 }
 
 /* Card copy */
@@ -98,11 +102,90 @@ body {
 }
 
 /* Button */
+.buy-btn {
+  width: 293px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Dark-cyan);
+  color: var(--main-White);
+  font-size: 0.9rem;
+  border-radius: 10px;
+  border: none;
+}
 
+.buy-btn .cart-icon {
+  margin-right: 12px;
+}
+
+.buy-btn:hover {
+  background-color: var(--Very-dark-blue);
+  cursor: pointer;
+}
+
+/* Footer */
 .attribution {
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: rgb(61, 87, 189);
+}
+
+/* Media query for mobile */
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    width: 320px;
+    height: 600px;
+  }
+
+  .image-container {
+    height: 300px;
+    width: 333px;
+    background: url(./images/image-product-mobile.jpg);
+  }
+
+  .copy-container {
+    padding: 10px;
+  }
+
+  .copy-container h3 {
+    font-size: 0.6rem;
+    margin-bottom: 16px;
+  }
+
+  .copy-container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+  }
+
+  .copy-container p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  /* Prices  */
+  .prices {
+    margin-bottom: 16px;
+  }
+
+  .prices .current-price {
+    font-size: 1.2rem;
+  }
+
+  .prices .previous-price {
+    font-size: 0.6rem;
+    margin-left: 16px;
+  }
+
+  /* Button */
+  .buy-btn {
+    width: 280px;
+    height: 40px;
+  }
 }
