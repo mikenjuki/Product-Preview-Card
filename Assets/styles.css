@@ -19,10 +19,12 @@
 /* Body styling */
 body {
   background-color: var(--main-Cream);
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 /* Main */
@@ -30,12 +32,11 @@ body {
 .container {
   max-width: 600px;
   height: auto;
-  /* max-width: var(--max-width); */
   width: 666px;
   display: flex;
   background-color: var(--main-White);
   border-radius: 10px;
-  margin-top: 110px;
+  /* margin-top: 110px; */
   overflow: hidden;
 }
 
@@ -137,7 +138,7 @@ body {
 }
 
 /* Media query for mobile */
-@media (max-width: 375px) {
+@media (max-width: 550px) {
   .container {
     flex-direction: column;
     width: 320px;
