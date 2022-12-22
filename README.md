@@ -28,9 +28,6 @@ Users should be able to:
 - Desktop version
   ![](./Final-pics/DT-version.png)
 
-- Mobile version
-  ![](./Final-pics/MB-version.png)
-
 ### Links
 
 - Solution URL: [](https://github.com/mikenjuki/Product-Preview-Card)
