@@ -13,6 +13,7 @@
 - [Author](#author)
 
 ## Overview
+
 - The goal was to create a component of a fictional product card. The layout and design are guided by the style guide.
 
 ### The challenge
@@ -25,15 +26,15 @@ Users should be able to:
 ### Screenshot
 
 - Desktop version
-![](./Final-pics/DT-version.png)
+  ![](./Final-pics/DT-version.png)
 
 - Mobile version
-![](./Final-pics/MB-version.png)
+  ![](./Final-pics/MB-version.png)
 
 ### Links
 
 - Solution URL: [](https://github.com/mikenjuki/Product-Preview-Card)
-- Live Site URL: [](https://your-live-site-url.com)
+- Live Site URL: [](https://mikenjuki.github.io/Product-Preview-Card/)
 
 ## My process
 
@@ -42,7 +43,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
 
 ### What I learned
 
@@ -62,4 +62,3 @@ I used this as a stepping stone for an upcoming products page in a future app.
 
 - Website - [Michael Njuki](https://blog.mikenjuki.com/)
 - Twitter - [@mikenjuki](https://twitter.com/mikenjuki)
-
